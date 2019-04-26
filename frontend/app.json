@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/forum/forum",
+    "pages/activity/activity",
+    "pages/shop/shop",
+    "pages/video/video"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/index1.png",
+        "selectedIconPath": "static/icon/index.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "static/icon/shop1.png",
+        "selectedIconPath": "static/icon/shop.png"
+      },
+      {
+        "pagePath": "pages/forum/forum",
+        "text": "社区",
+        "iconPath": "static/icon/forum1.png",
+        "selectedIconPath": "static/icon/forum.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "活动",
+        "iconPath": "static/icon/activity1.png",
+        "selectedIconPath": "static/icon/activity.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

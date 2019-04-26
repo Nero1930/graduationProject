@@ -1,0 +1,12 @@
+.title {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  height: 20px;
+  margin-top: -15px;
+  display: flex;
+  color: white;
+}
+input {
+  border: 1rpx solid #ddd
+}

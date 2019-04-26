@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="header">
+    <input placeholder="搜索" confirm-type="search" class="search" bindconfirm="search"></input>
+  </view>
+  <view class="body">
+  <view class="videos" wx:for="{{videos}}" wx:key="{{index}}" bindtap="open" id="{{item.id}}">
+  <image src="{{item.photo}}"></image>
+  <view class="info">
+    <text>视频名称： {{item.title}}</text>
+    <text>视频作者： {{item.author}}</text>
+    <text>视频类型： {{item.type}}</text>
+    </view>
+  </view>
+  </view>
+</view>

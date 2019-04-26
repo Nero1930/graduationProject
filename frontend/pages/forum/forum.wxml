@@ -1,0 +1,18 @@
+<!-- <view>hello {{name}}!</view>
+<button bindtap="changeName">Click!</button>
+
+<template name="odd">
+  <view> odd </view>
+</template>
+
+
+<template name="even">
+  <view> even </view>
+</template>
+
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}" wx:key="{{index+1}}">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block> -->
+
+<view>社区界面</view>

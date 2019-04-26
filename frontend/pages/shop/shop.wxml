@@ -1,0 +1,7 @@
+<!-- <view>shop</view>
+<text>{{time}}</text>
+<view wx:for="{{array}}" wx:key="{{id}}">
+  <text>{{index+1}}: {{item.text}}</text>
+</view> -->
+
+<view>商城界面</view>

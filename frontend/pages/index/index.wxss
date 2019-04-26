@@ -1,0 +1,41 @@
+/**index.wxss**/
+.title {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  height: 20px;
+  margin-top: -15px;
+  display: flex;
+  color: white;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.search {
+  margin: 8rpx;
+  border: 1rpx solid #ddd;
+}
+.videos {
+  display: flex;
+  margin: 10rpx;
+  box-shadow: #aaa 1rpx 1rpx 2rpx
+}
+image {
+  width: 160rpx;
+  height: 160rpx
+}
+text{
+ display: block;
+ margin-left: 20rpx
+}

@@ -1,0 +1,14 @@
+<view class="container">
+<video src="{{video.address}}" style="width:100%">
+  <cover-view class="title">
+      {{video.title}}
+  </cover-view>
+</video>
+<view>
+<view>点赞数：{{video.star}} || 分享数：{{video.shared}} || 收藏数：{{video.collect}}</view>
+<input placeholder="发布评论" confirm-type="send" bindconfirm='comment'></input>
+<view class="comment" wx:for="{{comment}}">
+<text>{{item.content}} -- {{item.author}}</text><text style="display:block">发表时间{{item.time}}</text>
+</view>
+</view>
+</view>
